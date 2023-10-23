@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C20964D52AA544BD00087833 /* Beer_can.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C20964D42AA544BD00087833 /* Beer_can.usdz */; };
+		C20964D82AA5C2BF00087833 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20964D72AA5C2BF00087833 /* ImmersiveView.swift */; };
+		C20964DE2AA5E17D00087833 /* VisionContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20964DD2AA5E17D00087833 /* VisionContentView.swift */; };
+		C20964E22AA5E51000087833 /* Model3D.md in Sources */ = {isa = PBXBuildFile; fileRef = C20964E12AA5E51000087833 /* Model3D.md */; };
+		C20964E62AA5E74000087833 /* ImmersionModes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20964E52AA5E74000087833 /* ImmersionModes.swift */; };
+		C20964E92AA5E7C000087833 /* ImmersionModeImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20964E82AA5E7C000087833 /* ImmersionModeImmersiveView.swift */; };
+		C24891242AA53D000052DEFC /* visionOS_WorkShopoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24891232AA53D000052DEFC /* visionOS_WorkShopoApp.swift */; };
+		C24891262AA53D000052DEFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24891252AA53D000052DEFC /* ContentView.swift */; };
+		C248912A2AA53D010052DEFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C24891292AA53D010052DEFC /* Assets.xcassets */; };
+		C248912E2AA53D010052DEFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C248912D2AA53D010052DEFC /* Preview Assets.xcassets */; };
+		C24891362AA53E3B0052DEFC /* WeatherScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24891352AA53E3B0052DEFC /* WeatherScreen.swift */; };
+		C24891382AA53E430052DEFC /* BeerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24891372AA53E430052DEFC /* BeerScreen.swift */; };
+		C248913A2AA53E4E0052DEFC /* FerryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24891392AA53E4E0052DEFC /* FerryScreen.swift */; };
+		C266B8032AA7E3010037CF1B /* BeerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C266B8022AA7E3010037CF1B /* BeerView.swift */; };
+		C266B8052AA7E4310037CF1B /* toy_drummer_idle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C266B8042AA7E4310037CF1B /* toy_drummer_idle.usdz */; };
+		C28167C02AA60DCE00E90E07 /* WorkshopOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28167BF2AA60DCE00E90E07 /* WorkshopOverview.swift */; };
+		C28167C22AA60DEC00E90E07 /* OrnamentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28167C12AA60DEC00E90E07 /* OrnamentView.swift */; };
+		C28167C52AA60E0300E90E07 /* OrnamentAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28167C42AA60E0300E90E07 /* OrnamentAlignment.swift */; };
+		C28167C82AA6175B00E90E07 /* OpenWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28167C72AA6175B00E90E07 /* OpenWindowView.swift */; };
+		C28167CA2AA6177300E90E07 /* CustomSizeWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28167C92AA6177300E90E07 /* CustomSizeWindow.swift */; };
+		C28167CC2AA6181600E90E07 /* SampleWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28167CB2AA6181600E90E07 /* SampleWindowView.swift */; };
+		C28167CF2AA6191400E90E07 /* MapKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28167CE2AA6191400E90E07 /* MapKitView.swift */; };
+		C28167D12AA6193B00E90E07 /* ExampleMapStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28167D02AA6193B00E90E07 /* ExampleMapStyle.swift */; };
+		C28167D32AA6195500E90E07 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28167D22AA6195500E90E07 /* Page.swift */; };
+		C28167D62AA619D500E90E07 /* SpatialAudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28167D52AA619D500E90E07 /* SpatialAudioView.swift */; };
+		C28167D82AA619DC00E90E07 /* SoundOrbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28167D72AA619DC00E90E07 /* SoundOrbView.swift */; };
+		C28167DA2AA63B9200E90E07 /* hello.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C28167D92AA63B9200E90E07 /* hello.mp3 */; };
+		C28167DD2AA63C1500E90E07 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C28167DC2AA63C1500E90E07 /* audio.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C20964D42AA544BD00087833 /* Beer_can.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Beer_can.usdz; sourceTree = "<group>"; };
+		C20964D72AA5C2BF00087833 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		C20964D92AA5C54500087833 /* visionOS-WorkShopo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "visionOS-WorkShopo-Info.plist"; sourceTree = SOURCE_ROOT; };
+		C20964DD2AA5E17D00087833 /* VisionContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionContentView.swift; sourceTree = "<group>"; };
+		C20964E12AA5E51000087833 /* Model3D.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Model3D.md; sourceTree = "<group>"; };
+		C20964E32AA5E58100087833 /* ImmersiveSpace.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ImmersiveSpace.md; sourceTree = "<group>"; };
+		C20964E42AA5E5DA00087833 /* Attachments.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Attachments.md; sourceTree = "<group>"; };
+		C20964E52AA5E74000087833 /* ImmersionModes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersionModes.swift; sourceTree = "<group>"; };
+		C20964E82AA5E7C000087833 /* ImmersionModeImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersionModeImmersiveView.swift; sourceTree = "<group>"; };
+		C24891202AA53D000052DEFC /* visionOS WorkShopo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "visionOS WorkShopo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C24891232AA53D000052DEFC /* visionOS_WorkShopoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = visionOS_WorkShopoApp.swift; sourceTree = "<group>"; };
+		C24891252AA53D000052DEFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C24891292AA53D010052DEFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C248912B2AA53D010052DEFC /* visionOS_WorkShopo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = visionOS_WorkShopo.entitlements; sourceTree = "<group>"; };
+		C248912D2AA53D010052DEFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C24891352AA53E3B0052DEFC /* WeatherScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherScreen.swift; sourceTree = "<group>"; };
+		C24891372AA53E430052DEFC /* BeerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerScreen.swift; sourceTree = "<group>"; };
+		C24891392AA53E4E0052DEFC /* FerryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FerryScreen.swift; sourceTree = "<group>"; };
+		C266B8002AA7E1A00037CF1B /* Guide.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Guide.md; sourceTree = "<group>"; };
+		C266B8022AA7E3010037CF1B /* BeerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerView.swift; sourceTree = "<group>"; };
+		C266B8042AA7E4310037CF1B /* toy_drummer_idle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_drummer_idle.usdz; sourceTree = "<group>"; };
+		C28167BF2AA60DCE00E90E07 /* WorkshopOverview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkshopOverview.swift; sourceTree = "<group>"; };
+		C28167C12AA60DEC00E90E07 /* OrnamentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrnamentView.swift; sourceTree = "<group>"; };
+		C28167C42AA60E0300E90E07 /* OrnamentAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrnamentAlignment.swift; sourceTree = "<group>"; };
+		C28167C72AA6175B00E90E07 /* OpenWindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWindowView.swift; sourceTree = "<group>"; };
+		C28167C92AA6177300E90E07 /* CustomSizeWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSizeWindow.swift; sourceTree = "<group>"; };
+		C28167CB2AA6181600E90E07 /* SampleWindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleWindowView.swift; sourceTree = "<group>"; };
+		C28167CE2AA6191400E90E07 /* MapKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitView.swift; sourceTree = "<group>"; };
+		C28167D02AA6193B00E90E07 /* ExampleMapStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleMapStyle.swift; sourceTree = "<group>"; };
+		C28167D22AA6195500E90E07 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		C28167D52AA619D500E90E07 /* SpatialAudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpatialAudioView.swift; sourceTree = "<group>"; };
+		C28167D72AA619DC00E90E07 /* SoundOrbView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundOrbView.swift; sourceTree = "<group>"; };
+		C28167D92AA63B9200E90E07 /* hello.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hello.mp3; sourceTree = "<group>"; };
+		C28167DC2AA63C1500E90E07 /* audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio.mp3; sourceTree = "<group>"; };
+		C2A9EF492AA78F7C00BB13F4 /* BigBeer.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = BigBeer.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C248911D2AA53D000052DEFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C20964D62AA544C100087833 /* USDZ */ = {
+			isa = PBXGroup;
+			children = (
+				C20964D42AA544BD00087833 /* Beer_can.usdz */,
+				C266B8042AA7E4310037CF1B /* toy_drummer_idle.usdz */,
+			);
+			path = USDZ;
+			sourceTree = "<group>";
+		};
+		C20964DA2AA5C61F00087833 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		C20964DF2AA5E35A00087833 /* Vision Screens */ = {
+			isa = PBXGroup;
+			children = (
+				C266B8012AA7E2FB0037CF1B /* Beer */,
+				C28167D42AA619CD00E90E07 /* SpatialAudio */,
+				C28167CD2AA6190700E90E07 /* Map */,
+				C28167C62AA6175400E90E07 /* OpenWindow */,
+				C20964EA2AA5E98900087833 /* Ornaments */,
+				C20964E72AA5E7AE00087833 /* ImmersionModes */,
+				C28167BF2AA60DCE00E90E07 /* WorkshopOverview.swift */,
+			);
+			path = "Vision Screens";
+			sourceTree = "<group>";
+		};
+		C20964E02AA5E4FF00087833 /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				C20964E12AA5E51000087833 /* Model3D.md */,
+				C20964E32AA5E58100087833 /* ImmersiveSpace.md */,
+				C20964E42AA5E5DA00087833 /* Attachments.md */,
+				C2A9EF492AA78F7C00BB13F4 /* BigBeer.md */,
+				C266B8002AA7E1A00037CF1B /* Guide.md */,
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		C20964E72AA5E7AE00087833 /* ImmersionModes */ = {
+			isa = PBXGroup;
+			children = (
+				C20964E52AA5E74000087833 /* ImmersionModes.swift */,
+				C20964E82AA5E7C000087833 /* ImmersionModeImmersiveView.swift */,
+			);
+			path = ImmersionModes;
+			sourceTree = "<group>";
+		};
+		C20964EA2AA5E98900087833 /* Ornaments */ = {
+			isa = PBXGroup;
+			children = (
+				C28167C12AA60DEC00E90E07 /* OrnamentView.swift */,
+			);
+			path = Ornaments;
+			sourceTree = "<group>";
+		};
+		C24891172AA53D000052DEFC = {
+			isa = PBXGroup;
+			children = (
+				C24891222AA53D000052DEFC /* visionOS WorkShopo */,
+				C24891212AA53D000052DEFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C24891212AA53D000052DEFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C24891202AA53D000052DEFC /* visionOS WorkShopo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C24891222AA53D000052DEFC /* visionOS WorkShopo */ = {
+			isa = PBXGroup;
+			children = (
+				C20964D92AA5C54500087833 /* visionOS-WorkShopo-Info.plist */,
+				C24891232AA53D000052DEFC /* visionOS_WorkShopoApp.swift */,
+				C24891252AA53D000052DEFC /* ContentView.swift */,
+				C28167C32AA60DFD00E90E07 /* Model */,
+				C20964DD2AA5E17D00087833 /* VisionContentView.swift */,
+				C28167DB2AA63B9500E90E07 /* Sounds */,
+				C20964DA2AA5C61F00087833 /* Images */,
+				C20964D62AA544C100087833 /* USDZ */,
+				C24891342AA53E310052DEFC /* Tabs */,
+				C24891292AA53D010052DEFC /* Assets.xcassets */,
+				C20964DF2AA5E35A00087833 /* Vision Screens */,
+				C20964E02AA5E4FF00087833 /* Guide */,
+				C248912B2AA53D010052DEFC /* visionOS_WorkShopo.entitlements */,
+				C248912C2AA53D010052DEFC /* Preview Content */,
+			);
+			path = "visionOS WorkShopo";
+			sourceTree = "<group>";
+		};
+		C248912C2AA53D010052DEFC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C248912D2AA53D010052DEFC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C24891342AA53E310052DEFC /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				C24891352AA53E3B0052DEFC /* WeatherScreen.swift */,
+				C24891372AA53E430052DEFC /* BeerScreen.swift */,
+				C24891392AA53E4E0052DEFC /* FerryScreen.swift */,
+				C20964D72AA5C2BF00087833 /* ImmersiveView.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		C266B8012AA7E2FB0037CF1B /* Beer */ = {
+			isa = PBXGroup;
+			children = (
+				C266B8022AA7E3010037CF1B /* BeerView.swift */,
+			);
+			path = Beer;
+			sourceTree = "<group>";
+		};
+		C28167C32AA60DFD00E90E07 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C28167C42AA60E0300E90E07 /* OrnamentAlignment.swift */,
+				C28167C92AA6177300E90E07 /* CustomSizeWindow.swift */,
+				C28167D02AA6193B00E90E07 /* ExampleMapStyle.swift */,
+				C28167D22AA6195500E90E07 /* Page.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C28167C62AA6175400E90E07 /* OpenWindow */ = {
+			isa = PBXGroup;
+			children = (
+				C28167C72AA6175B00E90E07 /* OpenWindowView.swift */,
+				C28167CB2AA6181600E90E07 /* SampleWindowView.swift */,
+			);
+			path = OpenWindow;
+			sourceTree = "<group>";
+		};
+		C28167CD2AA6190700E90E07 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				C28167CE2AA6191400E90E07 /* MapKitView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		C28167D42AA619CD00E90E07 /* SpatialAudio */ = {
+			isa = PBXGroup;
+			children = (
+				C28167D52AA619D500E90E07 /* SpatialAudioView.swift */,
+				C28167D72AA619DC00E90E07 /* SoundOrbView.swift */,
+			);
+			path = SpatialAudio;
+			sourceTree = "<group>";
+		};
+		C28167DB2AA63B9500E90E07 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				C28167DC2AA63C1500E90E07 /* audio.mp3 */,
+				C28167D92AA63B9200E90E07 /* hello.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C248911F2AA53D000052DEFC /* visionOS WorkShopo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C24891312AA53D010052DEFC /* Build configuration list for PBXNativeTarget "visionOS WorkShopo" */;
+			buildPhases = (
+				C248911C2AA53D000052DEFC /* Sources */,
+				C248911D2AA53D000052DEFC /* Frameworks */,
+				C248911E2AA53D000052DEFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "visionOS WorkShopo";
+			productName = "visionOS WorkShopo";
+			productReference = C24891202AA53D000052DEFC /* visionOS WorkShopo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C24891182AA53D000052DEFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					C248911F2AA53D000052DEFC = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = C248911B2AA53D000052DEFC /* Build configuration list for PBXProject "visionOS WorkShopo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C24891172AA53D000052DEFC;
+			productRefGroup = C24891212AA53D000052DEFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C248911F2AA53D000052DEFC /* visionOS WorkShopo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C248911E2AA53D000052DEFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C28167DA2AA63B9200E90E07 /* hello.mp3 in Resources */,
+				C248912E2AA53D010052DEFC /* Preview Assets.xcassets in Resources */,
+				C248912A2AA53D010052DEFC /* Assets.xcassets in Resources */,
+				C20964D52AA544BD00087833 /* Beer_can.usdz in Resources */,
+				C28167DD2AA63C1500E90E07 /* audio.mp3 in Resources */,
+				C266B8052AA7E4310037CF1B /* toy_drummer_idle.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C248911C2AA53D000052DEFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C28167D62AA619D500E90E07 /* SpatialAudioView.swift in Sources */,
+				C20964E62AA5E74000087833 /* ImmersionModes.swift in Sources */,
+				C20964E22AA5E51000087833 /* Model3D.md in Sources */,
+				C24891362AA53E3B0052DEFC /* WeatherScreen.swift in Sources */,
+				C20964DE2AA5E17D00087833 /* VisionContentView.swift in Sources */,
+				C24891382AA53E430052DEFC /* BeerScreen.swift in Sources */,
+				C20964D82AA5C2BF00087833 /* ImmersiveView.swift in Sources */,
+				C28167CC2AA6181600E90E07 /* SampleWindowView.swift in Sources */,
+				C28167C82AA6175B00E90E07 /* OpenWindowView.swift in Sources */,
+				C20964E92AA5E7C000087833 /* ImmersionModeImmersiveView.swift in Sources */,
+				C28167CA2AA6177300E90E07 /* CustomSizeWindow.swift in Sources */,
+				C24891262AA53D000052DEFC /* ContentView.swift in Sources */,
+				C28167D82AA619DC00E90E07 /* SoundOrbView.swift in Sources */,
+				C28167C52AA60E0300E90E07 /* OrnamentAlignment.swift in Sources */,
+				C28167D32AA6195500E90E07 /* Page.swift in Sources */,
+				C28167C22AA60DEC00E90E07 /* OrnamentView.swift in Sources */,
+				C28167C02AA60DCE00E90E07 /* WorkshopOverview.swift in Sources */,
+				C24891242AA53D000052DEFC /* visionOS_WorkShopoApp.swift in Sources */,
+				C28167CF2AA6191400E90E07 /* MapKitView.swift in Sources */,
+				C248913A2AA53E4E0052DEFC /* FerryScreen.swift in Sources */,
+				C266B8032AA7E3010037CF1B /* BeerView.swift in Sources */,
+				C28167D12AA6193B00E90E07 /* ExampleMapStyle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C248912F2AA53D010052DEFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C24891302AA53D010052DEFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C24891322AA53D010052DEFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "visionOS WorkShopo/visionOS_WorkShopo.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"visionOS WorkShopo/Preview Content\"";
+				DEVELOPMENT_TEAM = 8Q7TMPA46J;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "visionOS-WorkShopo-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.goodsnooze.visionOS-WorkShopo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		C24891332AA53D010052DEFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "visionOS WorkShopo/visionOS_WorkShopo.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"visionOS WorkShopo/Preview Content\"";
+				DEVELOPMENT_TEAM = 8Q7TMPA46J;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "visionOS-WorkShopo-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.goodsnooze.visionOS-WorkShopo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C248911B2AA53D000052DEFC /* Build configuration list for PBXProject "visionOS WorkShopo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C248912F2AA53D010052DEFC /* Debug */,
+				C24891302AA53D010052DEFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C24891312AA53D010052DEFC /* Build configuration list for PBXNativeTarget "visionOS WorkShopo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C24891322AA53D010052DEFC /* Debug */,
+				C24891332AA53D010052DEFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C24891182AA53D000052DEFC /* Project object */;
+}
